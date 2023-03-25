@@ -10,6 +10,7 @@ function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
+
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -30,3 +31,4 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
   setTimeout(showSlides, 2000);
 }
+
